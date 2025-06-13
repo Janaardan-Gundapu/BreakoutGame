@@ -1,17 +1,11 @@
-public class Main extends Application {
-    @Override
-    public void start(Stage primaryStage) {
-        GameScene game = new GameScene();
-        Scene scene = game.createScene();
+package states;
+import javax.swing.*;
 
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Breakout Ball Game");
-        primaryStage.show();
 
-        game.startGame();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
+public class Main
+{
+    public static void main(String[] args)
+    {
+        FrameDef f = new FrameDef();
     }
 }
